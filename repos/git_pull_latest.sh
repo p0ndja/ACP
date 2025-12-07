@@ -39,14 +39,19 @@ while IFS=';' read -r student_id repo_url; do
   if [ -d "$student_id" ]; then
     echo "Directory $student_id already exists. Resetting and fetching latest version."
     cd "$student_id"
-    git reset --hard
-    git pull
+    git reset --hard HEAD
+    git pull origin main
     # don't forget to checkout the latest commit before the deadline
     git checkout `git rev-list -n 1 --first-parent --before="$DEADLINE" main`
     cd ..
   else
     echo "Cloning $repo_url into $student_id"
-    git clone "$repo_url" "$student_id"
+    git clone "$repo_url" "$student_id" # check if the clone was successful
+    if [ $? -ne 0 ]; then
+      echo "Failed to clone $repo_url. Please check the URL or your network connection."
+      continue
+    fi
+
     cd "$student_id"
     git checkout `git rev-list -n 1 --first-parent --before="$DEADLINE" main`
     
