@@ -1,5 +1,7 @@
 #!/bin/bash
-
+# accept variables for lab number and section number
+LAB=$1
+SEC=$2
 #set deadline date
 #don't forget to set it +3 day from the actual deadline (for late submissions)
 #if there're any changes in the lab deadlines, please update them here
@@ -21,10 +23,6 @@ else
   echo "Please set the correct LAB and SEC variables, or update the deadlines in the script."
   exit 1
 fi
-
-# accept variables for lab number and section number
-LAB=$1
-SEC=$2
 if [ -z "$LAB" ] || [ -z "$SEC" ]; then
   echo "Usage: $0 <lab_number> <section_number>"
   exit 1
