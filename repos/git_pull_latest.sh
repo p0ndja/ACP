@@ -5,6 +5,9 @@
 #if there're any changes in the lab deadlines, please update them here
 # =============================
 # lab 1
+LAB=$1
+SEC=$2
+
 if [ $LAB -eq 1 ] && [ $SEC -eq 1 ]; then
   DEADLINE="2025-12-05 00:00" # lab 1 sec 1
 elif [ $LAB -eq 1 ] && [ $SEC -eq 2 ]; then
@@ -23,8 +26,6 @@ else
 fi
 
 # accept variables for lab number and section number
-LAB=$1
-SEC=$2
 if [ -z "$LAB" ] || [ -z "$SEC" ]; then
   echo "Usage: $0 <lab_number> <section_number>"
   exit 1
