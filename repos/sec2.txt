@@ -5,7 +5,7 @@
 683040133-1;https://github.com/kornrawatc-lab/kornrawat-1331-java-labs/
 683040139-9;https://github.com/theerasut-c/theerasut-1399-java-labs.git
 683040142-0;https://github.com/KimsirapatKKU/Sirapat-1420-java-labs
-683040144-6;https://github.com/akharaphont-cpu/akharaphon-1446-java-lads-lab1.git
+683040144-6;https://github.com/akharaphont-cpu/akharaphon-1446-java-labs
 683040402-0;https://github.com/kodchaponza07/Kodchapon-4020-java-labs.git
 683040403-8;https://github.com/Krittapol403-8/krittapol-4038-java-labs
 683040405-4;https://github.com/KANIN-NON/Chanin-4054-java-labs
