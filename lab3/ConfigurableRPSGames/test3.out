@@ -1,0 +1,8 @@
+Enter move (r/p/s or R/P/S or 0/1/2):
+Invalid move!
+Do you want to play again? (y/n)
+Enter move (r/p/s or R/P/S or 0/1/2):
+User choose: Paper
+Computer choose: Scissors
+Scissors beats Paper. You lose!
+Do you want to play again? (y/n)

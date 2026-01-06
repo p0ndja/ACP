@@ -1,0 +1,25 @@
+Choose a shape:
+0 - Circle
+1 - Rectangle
+2 - Trapezoid
+-1 - Exit
+Enter radius: 
+Area of Circle: 12.57
+
+Choose a shape:
+0 - Circle
+1 - Rectangle
+2 - Trapezoid
+-1 - Exit
+Enter radius: 
+Area of Circle: 28.27
+
+Choose a shape:
+0 - Circle
+1 - Rectangle
+2 - Trapezoid
+-1 - Exit
+Enter radius: 
+Area of Circle: 50.27
+
+Maximum calculations reached for one shape. Exiting.

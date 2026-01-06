@@ -1,0 +1,10 @@
+Enter move (r/p/s or R/P/S or 0/1/2):
+User choose: Rock
+Computer choose: Scissors
+Rock beats Scissors. You win!
+Do you want to play again? (y/n)
+Enter move (r/p/s or R/P/S or 0/1/2):
+User choose: Scissors
+Computer choose: Paper
+Scissors beats Paper. You win!
+Do you want to play again? (y/n)
