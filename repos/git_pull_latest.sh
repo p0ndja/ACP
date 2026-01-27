@@ -15,9 +15,9 @@ elif [ $LAB -eq 2 ] && [ $SEC -eq 1 ]; then
 elif [ $LAB -eq 2 ] && [ $SEC -eq 2 ]; then
   DEADLINE="2025-12-14 00:00" # lab 2 sec 2
 elif [ $LAB -eq 3 ] && [ $SEC -eq 1 ]; then
-  DEADLINE="2025-12-30 00:00" # lab 3 sec 1 (EXPECTED)
+  DEADLINE="2025-12-18 00:00" # lab 3 sec 1 (EXPECTED)
 elif [ $LAB -eq 3 ] && [ $SEC -eq 2 ]; then
-  DEADLINE="2026-01-04 00:00" # lab 3 sec 2 (EXPECTED)
+  DEADLINE="2025-12-21 00:00" # lab 3 sec 2 (EXPECTED)
 else
   echo "Please set the correct LAB and SEC variables, or update the deadlines in the script."
   exit 1

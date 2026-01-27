@@ -1,12 +1,13 @@
 633040600-1;https://github.com/Oaterease/supasin-6001-jv-labs.git
 653040461-1;https://github.com/weera461-1/weerachat-4611-java-labs.git
+673040129-1;https://github.com/WirakanPhumphuang/wirakan-1291-java-labs.git
 663040110-1;https://github.com/Kongkidakorn1101/konggidagon-1101-java-labs.git
 673040130-6;https://github.com/First-1t/Siratchawit-1306-java-labs2.git
 673040396-8;https://github.com/PichayawatVasustien/pichayawat-3968-java-labs.git
 673040622-5;https://github.com/Tanapad-Buaphad/tanapad-6225-java-labs.git
 683040132-3;https://github.com/konchanokr-dev/kornchanok-1323-java-labs.git
 683040134-9;https://github.com/kiyyti/Kitti-1349-java-lab.git
-683040135-7;https://github.com/kittisakpa-png/lab2.git
+683040135-7;https://github.com/kittisakpa-png/kittisak-panya-1357-java-labs
 683040136-5;https://github.com/Natchanon140849/Ball-136-5-java-Labs
 683040137-3;https://github.com/kato912/Thanakrit-1373-java-labs.git
 683040138-1;https://github.com/Sav-jpg/safety-1381-java-labs
