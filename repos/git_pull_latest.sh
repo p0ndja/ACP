@@ -15,9 +15,25 @@ elif [ $LAB -eq 2 ] && [ $SEC -eq 1 ]; then
 elif [ $LAB -eq 2 ] && [ $SEC -eq 2 ]; then
   DEADLINE="2025-12-14 00:00" # lab 2 sec 2
 elif [ $LAB -eq 3 ] && [ $SEC -eq 1 ]; then
-  DEADLINE="2025-12-18 00:00" # lab 3 sec 1 (EXPECTED)
+  DEADLINE="2025-12-18 00:00" # lab 3 sec 1
 elif [ $LAB -eq 3 ] && [ $SEC -eq 2 ]; then
-  DEADLINE="2025-12-21 00:00" # lab 3 sec 2 (EXPECTED)
+  DEADLINE="2025-12-21 00:00" # lab 3 sec 2
+elif [ $LAB -eq 4 ] && [ $SEC -eq 1 ]; then
+  DEADLINE="2025-12-25 00:00" # lab 3 sec 1
+elif [ $LAB -eq 4 ] && [ $SEC -eq 2 ]; then
+  DEADLINE="2025-12-28 00:00" # lab 3 sec 2
+elif [ $LAB -eq 5 ] && [ $SEC -eq 1 ]; then
+  DEADLINE="2026-01-08 00:00" # lab 3 sec 1
+elif [ $LAB -eq 5 ] && [ $SEC -eq 2 ]; then
+  DEADLINE="2026-01-11 00:00" # lab 3 sec 2
+elif [ $LAB -eq 6 ] && [ $SEC -eq 1 ]; then
+  DEADLINE="2026-01-25 00:00" # lab 3 sec 1
+elif [ $LAB -eq 6 ] && [ $SEC -eq 2 ]; then
+  DEADLINE="2026-01-25 00:00" # lab 3 sec 2
+elif [ $LAB -eq 7 ] && [ $SEC -eq 1 ]; then
+  DEADLINE="2026-02-05 00:00" # lab 3 sec 1
+elif [ $LAB -eq 7 ] && [ $SEC -eq 2 ]; then
+  DEADLINE="2026-02-08 00:00" # lab 3 sec 2
 else
   echo "Please set the correct LAB and SEC variables, or update the deadlines in the script."
   exit 1
