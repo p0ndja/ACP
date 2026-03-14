@@ -5,7 +5,7 @@ import glob
 import shlex
 
 # แก้ให้ตรงกับแล็บตัวเอง
-TARGET_FILES = ["ArrayStats.java"]
+TARGET_FILES = ["ArrayStats.java", "InteractiveArrayStats.java", "DisplayMatrix.java", "PascalTriangle.java"]
 current_cwd = os.getcwd()
 
 def press_key():
@@ -41,9 +41,12 @@ def process_directory(student_id):
                 found_files.append(os.path.join(root, TARGET_FILE))
         while not found_files:
             print(f"File {TARGET_FILE} not found in {student_id}.")
-            response = input("Would you like to try again? (y/n): ")
+            response = input("Would you like to try again? (y/n/<file_name>): ")
             if response.lower() == "n":
                 break
+            elif not response.lower() == "y":
+                # specify the file name to search for
+                TARGET_FILE = response.strip()
             for root, dirs, files in os.walk("."):
                 if TARGET_FILE in files:
                     found_files.append(os.path.join(root, TARGET_FILE))
@@ -131,7 +134,8 @@ def process_directory(student_id):
                                         print("✅Error")
                                     else:
                                         print("⚠️Error")
-                        
+                # After processing each TARGET_FILE, prompt user to continue or quit
+                press_key()
     os.chdir(original_dir)
 
 def main():
