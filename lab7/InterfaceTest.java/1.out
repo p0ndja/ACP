@@ -1,0 +1,15 @@
+=== Testing Interfaces ===
+Eve is attending Java Programming training
+Eve is attending Database Design training
+Total training hours: 16
+
+Before evaluation: Pending
+Performing evaluation for manager Frank
+After evaluation: Excellent
+Year-end bonus: 30000.00
+
+SalesPerson year-end bonus: 5000.00
+
+--- Using Interface as Type ---
+Bonus: 30000.00
+Bonus: 5000.00

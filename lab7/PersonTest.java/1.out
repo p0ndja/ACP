@@ -1,0 +1,12 @@
+=== Testing Person Hierarchy ===
+
+--- All People ---
+Employee [Person [id=E001, name=Alice], salary=25000.0]
+Role: Employee
+
+Intern [Employee [Person [id=I001, name=Diana], salary=20000.0], Duration =3 months, university = KKU
+Role: Intern
+
+--- Payment Calculation (Employee array) ---
+Alice (Employee): 25000.00
+Diana (Intern): 10000.00

@@ -1,0 +1,29 @@
+ === Testing Contractor Comparators ===
+
+--- Original Order ---
+Alice: Duration=6 months, Rate=450.00/hr
+Bob: Duration=12 months, Rate=500.00/hr
+Charlie: Duration=6 months, Rate=400.00/hr
+Diana: Duration=12 months, Rate=450.00/hr
+Eve: Duration=12 months, Rate=450.00/hr
+
+--- Sorted by Hourly Rate (Ascending) ---
+Charlie: Duration=6 months, Rate=400.00/hr
+Alice: Duration=6 months, Rate=450.00/hr
+Diana: Duration=12 months, Rate=450.00/hr
+Eve: Duration=12 months, Rate=450.00/hr
+Bob: Duration=12 months, Rate=500.00/hr
+
+--- Sorted by Duration (Descending) ---
+Diana: Duration=12 months, Rate=450.00/hr
+Eve: Duration=12 months, Rate=450.00/hr
+Bob: Duration=12 months, Rate=500.00/hr
+Charlie: Duration=6 months, Rate=400.00/hr
+Alice: Duration=6 months, Rate=450.00/hr
+
+--- Sorted by Duration (desc), Rate (asc), Name (asc) ---
+Diana: Duration=12 months, Rate=450.00/hr
+Eve: Duration=12 months, Rate=450.00/hr
+Bob: Duration=12 months, Rate=500.00/hr
+Charlie: Duration=6 months, Rate=400.00/hr
+Alice: Duration=6 months, Rate=450.00/hr
