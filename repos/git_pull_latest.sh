@@ -13,41 +13,53 @@ fi
 #if there're any changes in the lab deadlines, please update them here
 # =============================
 if [ $LAB -eq 1 ] && [ $SEC -eq 1 ]; then
-  DEADLINE="2025-12-05 00:00" # lab 1 sec 1
+  DEADLINE="2025-12-05 00:00" 
 elif [ $LAB -eq 1 ] && [ $SEC -eq 2 ]; then
-  DEADLINE="2025-12-08 00:00" # lab 1 sec 2
+  DEADLINE="2025-12-08 00:00" 
 elif [ $LAB -eq 2 ] && [ $SEC -eq 1 ]; then
-  DEADLINE="2025-12-11 00:00" # lab 2 sec 1
+  DEADLINE="2025-12-11 00:00" 
 elif [ $LAB -eq 2 ] && [ $SEC -eq 2 ]; then
-  DEADLINE="2025-12-14 00:00" # lab 2 sec 2
+  DEADLINE="2025-12-14 00:00" 
 elif [ $LAB -eq 3 ] && [ $SEC -eq 1 ]; then
-  DEADLINE="2025-12-18 00:00" # lab 3 sec 1
+  DEADLINE="2025-12-19 00:00" 
 elif [ $LAB -eq 3 ] && [ $SEC -eq 2 ]; then
-  DEADLINE="2025-12-21 00:00" # lab 3 sec 2
+  DEADLINE="2025-12-22 00:00" 
 elif [ $LAB -eq 4 ] && [ $SEC -eq 1 ]; then
-  DEADLINE="2025-12-26 00:00" # lab 3 sec 1
+  DEADLINE="2025-12-26 00:00" 
 elif [ $LAB -eq 4 ] && [ $SEC -eq 2 ]; then
-  DEADLINE="2025-12-29 00:00" # lab 3 sec 2
+  DEADLINE="2025-12-29 00:00" 
 elif [ $LAB -eq 5 ] && [ $SEC -eq 1 ]; then
-  DEADLINE="2026-01-08 00:00" # lab 3 sec 1
+  DEADLINE="2026-01-09 00:00" 
 elif [ $LAB -eq 5 ] && [ $SEC -eq 2 ]; then
-  DEADLINE="2026-01-11 00:00" # lab 3 sec 2
+  DEADLINE="2026-01-12 00:00" 
 elif [ $LAB -eq 6 ] && [ $SEC -eq 1 ]; then
-  DEADLINE="2026-01-25 00:00" # lab 3 sec 1
+  DEADLINE="2026-01-26 00:00" 
 elif [ $LAB -eq 6 ] && [ $SEC -eq 2 ]; then
-  DEADLINE="2026-01-25 00:00" # lab 3 sec 2
+  DEADLINE="2026-01-26 00:00" 
 elif [ $LAB -eq 7 ] && [ $SEC -eq 1 ]; then
-  DEADLINE="2026-02-05 00:00" # lab 3 sec 1
+  DEADLINE="2026-02-06 00:00" 
 elif [ $LAB -eq 7 ] && [ $SEC -eq 2 ]; then
-  DEADLINE="2026-02-08 00:00" # lab 3 sec 2
+  DEADLINE="2026-02-09 00:00" 
 elif [ $LAB -eq 8 ] && [ $SEC -eq 1 ]; then
-  DEADLINE="2026-02-10 00:00" # lab 3 sec 1
+  DEADLINE="2026-02-13 00:00" 
 elif [ $LAB -eq 8 ] && [ $SEC -eq 2 ]; then
-  DEADLINE="2026-02-13 00:00" # lab 3 sec 2
+  DEADLINE="2026-02-16 00:00" 
 elif [ $LAB -eq 9 ] && [ $SEC -eq 1 ]; then
-  DEADLINE="2026-02-17 00:00" # lab 3 sec 1
+  DEADLINE="2026-02-20 00:00" 
 elif [ $LAB -eq 9 ] && [ $SEC -eq 2 ]; then
-  DEADLINE="2026-02-20 00:00" # lab 3 sec 2
+  DEADLINE="2026-02-23 00:00" 
+elif [ $LAB -eq 10 ] && [ $SEC -eq 1 ]; then
+  DEADLINE="2026-03-06 00:00" 
+elif [ $LAB -eq 10 ] && [ $SEC -eq 2 ]; then
+  DEADLINE="2026-03-09 00:00"
+elif [ $LAB -eq 11 ] && [ $SEC -eq 1 ]; then
+  DEADLINE="2026-03-16 00:00" 
+elif [ $LAB -eq 11 ] && [ $SEC -eq 2 ]; then
+  DEADLINE="2026-03-16 00:00" 
+elif [ $LAB -eq 12 ] && [ $SEC -eq 1 ]; then
+  DEADLINE="2026-03-23 00:00" 
+elif [ $LAB -eq 12 ] && [ $SEC -eq 2 ]; then
+  DEADLINE="2026-03-23 00:00" 
 else
   echo "Please set the correct LAB and SEC variables, or update the deadlines in the script."
   exit 1
